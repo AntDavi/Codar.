@@ -44,7 +44,7 @@
 }
 
 .Menu a {
-    padding: .8rem 4rem;
+    padding: 3% 4rem;
     border-radius: 12px;
     font-weight: bold;
     background-color: #D6000D;
@@ -189,8 +189,17 @@
 }
 
 .Assessments .Card-Assessment .Persona-Informations {
-    display: flex;
     flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.Assessments .Card-Assessment .Persona-Informations h2 {
+    font-size: 1.3rem;
+}
+
+.Assessments .Card-Assessment .Persona-Informations h3 {
+    font-size: 1rem;
 }
 
 .Assessments .Card-Assessment .Persona-Informations {
@@ -211,6 +220,7 @@ footer {
 
 footer .Logo {
     font-size: 3rem;
+    font-style: italic;
 }
 
 footer h2 {
@@ -228,4 +238,10 @@ footer section {
 footer h2 {
     margin-bottom: 2rem;
 }
+
+footer .Contact a {
+    text-decoration: underline;
+}
+
+
 
